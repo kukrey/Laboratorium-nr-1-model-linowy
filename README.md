@@ -14,7 +14,7 @@ print(inputs.shape) `
 ![alt text](image-2.png)
 --
 2.
-< br />a) Zmiana eta z 0.2 na 0.0001 skutkuje spowolnieniem nauki, potrzebne jest o wiele więcej epok by nauka przebiegła skutecznie
+a) Zmiana eta z 0.2 na 0.0001 skutkuje spowolnieniem nauki, potrzebne jest o wiele więcej epok by nauka przebiegła skutecznie
 b) Zmiana eta z 0.2 na 0.001 skutkuje spowolnieniem nauki, względem eta 0.0001 eta 0.001 uczy się szybciej i wymaga mnie epok
 c) Zmiana eta z 0.2 na 0.01 skutkuje spowolnieniem nauki, względem eta 0.001 eta 0.01 uczy się szybciej i wymaga mniej epok, jest mu o wiele bliżej wydajności eta 0.2, 
 W każdym z przypadków by osiagnąc skuteczą nauke należy zmienić ilość epok z 100 na większą
