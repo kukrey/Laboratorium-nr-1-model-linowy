@@ -23,3 +23,18 @@ W każdym z przypadków by osiagnąc skuteczą nauke należy zmienić ilość ep
  ![alt text](image-3.png)
  Zwiększenie epok na 1000 z 100 skutkuje prawie idealnym wynikiem:
  ![alt text](image-4.png)
+ --
+ --
+ # Laboratorium-nr-2-model-liniowy
+ ### Bazowy wykres
+ ![alt text](image-5.png)
+--
+## Zadanie 1
+1.Zmiana z sgd na adam odbiega od oczekiwanych wyników, adam w optimizer wymaga większej ilości epok by wynik był satysfakcjonujący(z 100 na 1000 epoch)
+![alt text](image-7.png)
+2.Zmiana z loss mean_squared_error na mean_absolute_error odbiega od oczekiwanych wyników, absolute w loss wymaga większej ilości epok by wynik był satysfakcjonujący(z 100 na 1000 epoch)
+3.kombinacja zmian również pokazuje to że jest wymagana większa ilośc epok do osiągnięcia satysfakcjonującego wyniku nauki
+![alt text](image-6.png)
+## Zadanie 2
+1.po dodaniu przykładowych warstw sigmoid wynik wygląda tak:
+![alt text](image-8.png)
